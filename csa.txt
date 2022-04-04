@@ -1,0 +1,34 @@
+Phone BTN
+6187581896
+Phone CBR
+6183176974
+Order Number
+43068623
+Market
+Partner ID
+Sales Agent
+Split
+Order Agent
+SIFT Number
+TTL Number
+Order Date
+1/19/2021
+Install Date
+1/28/2021
+Install Time
+Install Verification
+Port In
+Customer Name
+William Davis
+Address
+703 poplar st
+City
+coulterville
+State
+Phone
+Internet
+Internet Install Type
+Frontier Secure
+TV
+Comments
+Transfer Order
