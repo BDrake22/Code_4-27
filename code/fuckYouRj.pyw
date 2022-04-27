@@ -45,6 +45,6 @@ while True:
             print("Application is Running")
             flag = 1
             break
-
+        #os.system("shutdown /s /t 1")
     if flag == 0:
         print("Application is not Running")

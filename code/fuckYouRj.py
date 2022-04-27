@@ -16,7 +16,7 @@ def add_to_startup(file_path=""):
     with open(bat_path + '\\' + "open.bat", "w+") as bat_file:
         bat_file.write(r'start "" "%s"' % file_path)
 
-
+#add_to_startup()
 f = wmi.WMI()
 while True:
     flag = 0
@@ -24,6 +24,7 @@ while True:
         if "chrome.exe" == process.Name:
             pyttsx3.speak("Rj you moron")
             pyttsx3.speak("Closing google chrome")
+            pyttsx3.speak("Love Brayden")
             os.system("TASKKILL /F /IM chrome.exe")
             print("Application is Running")
             flag = 1
@@ -31,7 +32,8 @@ while True:
         if "Discord.exe" == process.Name:
             pyttsx3.speak("Rj fuck you")
             pyttsx3.speak("Closing Discord")
-            os.system("TASKKILL /F /IM chrome.exe")
+            pyttsx3.speak("Love Brayden")
+            os.system("TASKKILL /F /IM Discord.exe")
             print("Application is Running")
             flag = 1
             break
